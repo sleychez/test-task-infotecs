@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Test task</title>
+    <META charset="UTF-8">
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+<button class="bttn_hidden" data-hidden="off">Cкрыть колонку <span>Имя</span></button>
+<button class="bttn_hidden" data-hidden="off">Cкрыть колонку <span>Фамилия</span></button>
+<button class="bttn_hidden" data-hidden="off">Cкрыть колонку <span>Описание</span></button>
+<button class="bttn_hidden" data-hidden="off">Cкрыть колонку <span>Цвет глаз</span></button>
+<table>
+    <thead>
+    <tr>
+        <th class="table_first_name _col">Имя</th>
+        <th class="table_last_name _col">Фамилия</th>
+        <th class="table_about _col">Описание</th>
+        <th class="table_eye_color _col">Цвет глаз</th>
+    </tr>
+    </thead>
+    <tbody id="bodyOfTable">
+    </tbody>
+</table>
+<div class="form_wrapper">
+    <form action="" class="form">
+        <p>Имя: <input type="text"></p>
+        <p>Фамилия: <input type="text"></p>
+        <p>Описание: <textarea name="about" cols="30" rows="5"></textarea></p>
+        <p>Цвет глаз: <input type="text"></p>
+    </form>
+    <button class="div_bttn_edit">Редактировать</button>
+    <button class="div_bttn_close">Закрыть форму</button>
+</div>
+<script src="src/script.js"></script>
+</body>
+</html>

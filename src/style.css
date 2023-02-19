@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 50%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 3px solid black;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 14px;
+}
+th{
+    cursor: pointer;
+}
+.table_first_name,
+.table_last_name,
+.table_eye_color{
+    width: 15%;
+
+}
+._col{
+    padding: 10px 0;
+    border: 1px ridge black;
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+th.selected[data-index = '-1']::after{
+    content: ', Z-A';
+}
+th.selected[data-index = '1']::after{
+    content: ', A-Z'
+}
+.form_wrapper{
+    border: 3px solid black;
+    padding: 10px;
+    position: absolute;
+    display: none;
+}
+.form p{
+    margin: 10px;
+}
+.form input{
+    float: right;
+    width: 40%;
+}
+.colored_eye{
+    margin: 0 5px;
+    padding: 16px 0;
+    font-size: 0px;
+}
+.bttn_hidden{
+    padding: 5px;
+    margin: 10px 5px 10px 10px;
+}
+._hidden1 tr th:nth-child(1),
+._hidden1 .table_rows td:nth-child(1){
+    display: none;
+}
+._hidden2 tr th:nth-child(2),
+._hidden2 .table_rows td:nth-child(2){
+    display: none;
+}
+._hidden3 tr th:nth-child(3),
+._hidden3 .table_rows td:nth-child(3){
+    display: none;
+}
+._hidden4 tr th:nth-child(4),
+._hidden4 .table_rows td:nth-child(4){
+    display: none;
+}
