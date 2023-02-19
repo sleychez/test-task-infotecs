@@ -1,6 +1,6 @@
 # About project
 
-Test task from infotecs. You can view it here: https://danyafaye.github.io/test-task-infotecs/
+Test task from infotecs. You can view it here:
 
 Main goals (All completed):
 
