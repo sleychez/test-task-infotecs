@@ -1,6 +1,6 @@
 # About project
 
-Test task from infotecs. You can view it here:
+Test task from infotecs. You can view it here: https://sleychez.github.io/test-task-infotecs/
 
 Main goals (All completed):
 
